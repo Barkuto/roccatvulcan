@@ -1,12 +1,13 @@
 const keylist = require('./keys.js');
 
 module.exports.KEYREADBUFFER10 = {
-  57: keylist.KEYMAPPER['CAPSLOCK'],
+  57: keylist.KEYMAPPER.CAPSLOCK,
+  255: keylist.KEYMAPPER.CAPSLOCK, // Uses this when keyboard is in Game Mode
 }
 
 module.exports.KEYREADBUFFER204 = {
-  1: keylist.KEYMAPPER['WHEELUP'],
-  255: keylist.KEYMAPPER['WHEELDOWN'],
+  1: keylist.KEYMAPPER.WHEELUP,
+  255: keylist.KEYMAPPER.WHEELDOWN,
 }
 
 module.exports.KEYREADBUFFER251 = {
